@@ -1,0 +1,31 @@
+/* CustomComponent.module.css */
+
+/* .customScrollbar { */
+    /* Apply the custom scrollbar styles to elements with this class */
+/* } */
+
+/* width */
+.customScrollbar::-webkit-scrollbar {
+    /* This is  done in order to remove the scroll bar from ui bt it functionality works  */
+    /* one way */
+    /* display: none; */
+
+    /* second way */
+    width: 4px;  
+}
+
+/* Track */
+.customScrollbar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.customScrollbar::-webkit-scrollbar-thumb {
+    background: #040404;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+.customScrollbar::-webkit-scrollbar-thumb:hover {
+    background: #080808;
+}
